@@ -2,7 +2,7 @@ public class MainQA38 {
     public static void main(String[] args) {
         CreditPaymentService service = new CreditPaymentService();
         int credit = 1_000_000; // сумма кредита
-        float percent = 9.99F; // процент кредита
+        double percent = 9.99; // процент кредита
         int years1 = 1; // срок кредитования
         int years2 = 2; // срок кредитования
         int years3 = 3; // срок кредитования
